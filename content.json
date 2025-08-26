@@ -64,6 +64,14 @@
       ]
     },
     {
+      "Action": "EditMap",
+      "Target": "Maps/KTG.SeedShopsMap",
+      "AddWarps": [
+        "2 3 BusStop 42 6",
+        "2 4 BusStop 42 7"
+      ]
+    },
+    {
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
@@ -94,5 +102,4 @@
     }
   ],
   "ModNotes": "Beautifying and basic JSON format validation through https://jsonformatter.org/"
-
 }
