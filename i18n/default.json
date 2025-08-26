@@ -1,0 +1,21 @@
+{
+  "config.WalkToShops.name": "Enable walking to the Seed Market via the Bus Stop?",
+  "config.WalkToShops.description": "When checked, you can exit the base game Bus Stop map at the top right road to get to the Seed Market.",
+  "config.LimitSeedsBySeason.name": "Limit seed selection by season?",
+  "config.LimitSeedsBySeason.description": "When checked, the Seed Market will only carry seeds for the current season.",
+  "DisplayName": "Open Air Seed Market",
+  "ShopSpring": "Spring Seeds",
+  "ShopSummer": "Summer Seeds",
+  "ShopFall": "Fall Seeds",
+  "ShopWinter": "Winter Seeds",
+  "ShopSpecial": "Special Seeds",
+  "ShopCornucopia": "Cornucopia Seeds",
+  "ShopFlowers": "Flower Seeds",
+  "ShopTools": "Soil Amendments and Sprinklers, oh my!",
+  "ShopDialog_Open": "Welcome! Looking for [SuggestedItem]?",
+  "ShopDialog_Closed": "This shop is presently closed.",
+  "ShopDialog_Closed_Spring": "Come back during Spring!",
+  "ShopDialog_Closed_Summer": "Come back during Summer!",
+  "ShopDialog_Closed_Fall": "Come back during Fall!",
+  "ShopDialog_Closed_Winter": "Come back during Winter!"
+}

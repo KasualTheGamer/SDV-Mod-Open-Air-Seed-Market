@@ -1,0 +1,19 @@
+{
+    "Name": "KTG's Seed Shops Open Air Market",
+    "Author": "KasualTheGamer",
+    "Version": "0.1.16",
+    "Description": "Adds a map for an open air seed market, accessible through Central Station bussing.",
+    "UniqueID": "KTG.SeedShops",
+    "UpdateKeys": [
+        null
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.CentralStation",
+            "MinimumVersion": "1.5.0"
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,346 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "spring"
+      },
+      "Entries": {
+        "{{ModId}}_SpringShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Closed_Spring}}",
+              "Condition": "!Season spring"
+            },
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Apricot",
+              "ItemID": "(O)629"
+            },
+            {
+              "Id": "{{ModId}}_GreenBean",
+              "ItemID": "(O)473"
+            },
+            {
+              "Id": "{{ModId}}_Carrot",
+              "ItemID": "(O)CarrotSeeds"
+            },
+            {
+              "Id": "{{ModId}}_Cauliflower",
+              "ItemID": "(O)474"
+            },
+            {
+              "Id": "{{ModId}}_Cherry",
+              "ItemID": "(O)628"
+            },
+            {
+              "Id": "{{ModId}}_Garlic",
+              "ItemID": "(O)476"
+            },
+            {
+              "Id": "{{ModId}}_Kale",
+              "ItemID": "(O)477"
+            },
+            {
+              "Id": "{{ModId}}_Parsnip",
+              "ItemID": "(O)472"
+            },
+            {
+              "Id": "{{ModId}}_Potato",
+              "ItemID": "(O)475"
+            },
+            {
+              "Id": "{{ModId}}_Rhubarb",
+              "ItemID": "(O)478"
+            },
+            {
+              "Id": "{{ModId}}_Rice",
+              "ItemID": "(O)273"
+            },
+            {
+              "Id": "{{ModId}}_SpringSeeds",
+              "ItemID": "(O)495"
+            },
+            {
+              "Id": "{{ModId}}_Strawberry",
+              "ItemID": "(O)745",
+              "Price": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "summer"
+      },
+      "Entries": {
+        "{{ModId}}_SummerShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Closed_Summer}}",
+              "Condition": "!Season summer"
+            },
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Banana",
+              "ItemID": "(O)69"
+            },
+            {
+              "Id": "{{ModId}}_Blueberry",
+              "ItemID": "(O)481"
+            },
+            {
+              "Id": "{{ModId}}_Corn",
+              "ItemID": "(O)487"
+            },
+            {
+              "Id": "{{ModId}}_Hops",
+              "ItemID": "(O)302"
+            },
+            {
+              "Id": "{{ModId}}_Mango",
+              "ItemID": "(O)835"
+            },
+            {
+              "Id": "{{ModId}}_Melon",
+              "ItemID": "(O)479"
+            },
+            {
+              "Id": "{{ModId}}_Orange",
+              "ItemID": "(O)630"
+            },
+            {
+              "Id": "{{ModId}}_Peach",
+              "ItemID": "(O)631"
+            },
+            {
+              "Id": "{{ModId}}_HotPepper",
+              "ItemID": "(O)482"
+            },
+            {
+              "Id": "{{ModId}}_Pineapple",
+              "ItemID": "(O)833"
+            },
+            {
+              "Id": "{{ModId}}_Radish",
+              "ItemID": "(O)484"
+            },
+            {
+              "Id": "{{ModId}}_RedCabbage",
+              "ItemID": "(O)485"
+            },
+            {
+              "Id": "{{ModId}}_Starfruit",
+              "ItemID": "(O)486"
+            },
+            {
+              "Id": "{{ModId}}_SummerSeeds",
+              "ItemID": "(O)496"
+            },
+            {
+              "Id": "{{ModId}}_SummerSquash",
+              "ItemID": "(O)SummerSquashSeeds"
+            },
+            {
+              "Id": "{{ModId}}_Sunflower",
+              "ItemID": "(O)431"
+            },
+            {
+              "Id": "{{ModId}}_Taro",
+              "ItemID": "(O)831"
+            },
+            {
+              "Id": "{{ModId}}_Tomato",
+              "ItemID": "(O)480"
+            },
+            {
+              "Id": "{{ModId}}_Wheat",
+              "ItemID": "(O)483"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "fall"
+      },
+      "Entries": {
+        "{{ModId}}_FallShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Closed_Fall}}",
+              "Condition": "!Season fall"
+            },
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Amaranth",
+              "ItemID": "(O)299"
+            },
+            {
+              "Id": "{{ModId}}_Apple",
+              "ItemID": "(O)633"
+            },
+            {
+              "Id": "{{ModId}}_Artichoke",
+              "ItemID": "(O)489"
+            },
+            {
+              "Id": "{{ModId}}_Beet",
+              "ItemID": "(O)494"
+            },
+            {
+              "Id": "{{ModId}}_BokChoy",
+              "ItemID": "(O)491"
+            },
+            {
+              "Id": "{{ModId}}_Broccoli",
+              "ItemID": "(O)BroccoliSeeds"
+            },
+            {
+              "Id": "{{ModId}}_Cranberry",
+              "ItemID": "(O)493"
+            },
+            {
+              "Id": "{{ModId}}_Eggplant",
+              "ItemID": "(O)488"
+            },
+            {
+              "Id": "{{ModId}}_FallSeeds",
+              "ItemID": "(O)497"
+            },
+            {
+              "Id": "{{ModId}}_Grape",
+              "ItemID": "(O)301"
+            },
+            {
+              "Id": "{{ModId}}_Pomegranate",
+              "ItemID": "(O)632"
+            },
+            {
+              "Id": "{{ModId}}_Pumpkin",
+              "ItemID": "(O)490"
+            },
+            {
+              "Id": "{{ModId}}_RareSeed",
+              "ItemID": "(O)347"
+            },
+            {
+              "Id": "{{ModId}}_Yam",
+              "ItemID": "(O)492"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "winter"
+      },
+      "Entries": {
+        "{{ModId}}_WinterShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Closed_Winter}}",
+              "Condition": "!Season winter"
+            },
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Powdermelon",
+              "ItemID": "(O)PowdermelonSeeds"
+            },
+            {
+              "Id": "{{ModId}}_WinterSeeds",
+              "ItemID": "(O)498"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "When": {
+        "LimitSeedsBySeason": true
+      },
+      "Entries": {
+        "{{ModId}}_FlowerShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Jazz",
+              "ItemID": "(O)429",
+              "Condition": "Season spring"
+            },
+            {
+              "Id": "{{ModId}}_Tulip",
+              "ItemID": "(O)427",
+              "Condition": "Season spring"
+            },
+            {
+              "Id": "{{ModId}}_Poppy",
+              "ItemID": "(O)453",
+              "Condition": "Season summer"
+            },
+            {
+              "Id": "{{ModId}}_Spangle",
+              "ItemID": "(O)455",
+              "Condition": "Season summer"
+            },
+            {
+              "Id": "{{ModId}}_FairyRose",
+              "ItemID": "(O)425",
+              "Condition": "Season fall"
+            },
+            {
+              "Id": "{{ModId}}_MixedFlower",
+              "ItemID": "(O)MixedFlowerSeeds",
+              "Price": 30
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

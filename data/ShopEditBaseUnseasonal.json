@@ -1,0 +1,146 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "{{ModId}}_SpecialShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Acorn",
+              "ItemID": "(O)309"
+            },
+            {
+              "Id": "{{ModId}}_Cactus",
+              "ItemID": "(O)802",
+              "Price": 150
+            },
+            {
+              "Id": "{{ModId}}_CoffeeBean",
+              "ItemID": "(O)433"
+            },
+            {
+              "Id": "{{ModId}}_FiberSeeds",
+              "ItemID": "(O)885"
+            },
+            {
+              "Id": "{{ModId}}_Mahogany",
+              "ItemID": "(O)292"
+            },
+            {
+              "Id": "{{ModId}}_Maple",
+              "ItemID": "(O)310"
+            },
+            {
+              "Id": "{{ModId}}_MixedProduce",
+              "ItemID": "(O)770",
+              "Price": 30
+            },
+            {
+              "Id": "{{ModId}}_Mossy",
+              "ItemID": "(O)MossySeed"
+            },
+            {
+              "Id": "{{ModId}}_MushroomTree",
+              "ItemID": "(O)891"
+            },
+            {
+              "Id": "{{ModId}}_MysticTree",
+              "ItemID": "(O)MysticTreeSeed"
+            },
+            {
+              "Id": "{{ModId}}_PineCone",
+              "ItemID": "(O)311"
+            },
+            {
+              "Id": "{{ModId}}_Tea",
+              "ItemID": "(O)251"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "{{ModId}}_ToolShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Sprinkler_1",
+              "ItemID": "(O)599"
+            },
+            {
+              "Id": "{{ModId}}_Sprinkler_2",
+              "ItemID": "(O)621"
+            },
+            {
+              "Id": "{{ModId}}_Sprinkler_3",
+              "ItemID": "(O)645"
+            },
+            {
+              "Id": "{{ModId}}_Fertilizer_1",
+              "ItemID": "(O)368"
+            },
+            {
+              "Id": "{{ModId}}_Fertilizer_2",
+              "ItemID": "(O)369"
+            },
+            {
+              "Id": "{{ModId}}_RetainingSoil_1",
+              "ItemID": "(O)370"
+            },
+            {
+              "Id": "{{ModId}}_RetainingSoil_2",
+              "ItemID": "(O)371"
+            },
+            {
+              "Id": "{{ModId}}_TreeFertilizer",
+              "ItemID": "(O)805"
+            },
+            {
+              "Id": "{{ModId}}_Speed-Gro_3",
+              "ItemID": "(O)918"
+            },
+            {
+              "Id": "{{ModId}}_Fertilizer_3",
+              "ItemID": "(O)919"
+            },
+            {
+              "Id": "{{ModId}}_RetainingSoil_3",
+              "ItemID": "(O)920"
+            },
+            {
+              "Id": "{{ModId}}_Enricher",
+              "ItemID": "(O)913"
+            },
+            {
+              "Id": "{{ModId}}_Pressure Nozzle",
+              "ItemID": "(O)915"
+            },
+            {
+              "Id": "{{ModId}}_Speed-Gro_1",
+              "ItemID": "(O)465"
+            },
+            {
+              "Id": "{{ModId}}_Speed-Gro_2",
+              "ItemID": "(O)466"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
