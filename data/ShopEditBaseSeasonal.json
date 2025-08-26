@@ -73,6 +73,11 @@
               "Id": "{{ModId}}_Strawberry",
               "ItemID": "(O)745",
               "Price": 100
+            },
+            {
+              "Id": "{{ModId}}_MixedProduce",
+              "ItemID": "(O)770",
+              "Price": 30
             }
           ]
         }
@@ -174,6 +179,11 @@
             {
               "Id": "{{ModId}}_Wheat",
               "ItemID": "(O)483"
+            },
+            {
+              "Id": "{{ModId}}_MixedProduce",
+              "ItemID": "(O)770",
+              "Price": 30
             }
           ]
         }
@@ -255,6 +265,11 @@
             {
               "Id": "{{ModId}}_Yam",
               "ItemID": "(O)492"
+            },
+            {
+              "Id": "{{ModId}}_MixedProduce",
+              "ItemID": "(O)770",
+              "Price": 30
             }
           ]
         }
@@ -288,6 +303,11 @@
             {
               "Id": "{{ModId}}_WinterSeeds",
               "ItemID": "(O)498"
+            },
+            {
+              "Id": "{{ModId}}_MixedProduce",
+              "ItemID": "(O)770",
+              "Price": 30
             }
           ]
         }

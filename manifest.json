@@ -1,16 +1,17 @@
 {
     "Name": "KTG's Seed Shops Open Air Market",
     "Author": "KasualTheGamer",
-    "Version": "0.1.16",
+    "Version": "0.1.2-beta",
     "Description": "Adds a map for an open air seed market, accessible through Central Station bussing.",
     "UniqueID": "KTG.SeedShops",
     "UpdateKeys": [
-        null
+        "GitHub:KasualTheGamer/SDV-Mod-Open-Air-Seed-Market"
     ],
     "Dependencies": [
         {
             "UniqueID": "Pathoschild.CentralStation",
-            "MinimumVersion": "1.5.0"
+            "MinimumVersion": "1.5.0",
+            "IsRequired": false
         }
     ],
     "ContentPackFor": {
