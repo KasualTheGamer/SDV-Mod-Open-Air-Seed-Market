@@ -32,7 +32,8 @@ I have no idea if my price setting for these seeds will override any rebalancing
 
 # Known "Not Working!"
 
-- See the "Bugs" tab here on Nexus
+- When a shop has no inventory, there is no reaction to trying to interact with it. This happens when the option to limit the shops to season appropriate wares is set to `true`.
+- working on bus stop related shenanigans
 
 # Think you can do this better?
 
@@ -41,5 +42,6 @@ This map is heavily inspired by a map that has since been taken down from Nexus,
 Many head thunks later, using just the base game assets and learning from the examples I could scavenge around the net, I put together this small little outdoor map with seed vendors and some trees. 
 
 So, if you think you can do it better, go ahead! Please! In fact, send me a link should you post your take! 
+
 
 All the image assets I've used are from the base game, and all the seeds are from ConcernedApe or the mod authors of the mods I eventually make this play nice with. 
