@@ -27,13 +27,16 @@ I have no idea if my price setting for these seeds will override any rebalancing
 
 # Planned Development
 
-- Adding in some forage via Farm Type Manager could be possible.
 - TODO: finish adding the bus stop warp location
+- Farm Type Manager content pack for the map
+- adding a seasonal goods vendor, and maybe another for animal produce so cooks can get cooking right from the get go
 
-# Known "Not Working!"
+# Known Oddities and Issues
 
 - When a shop has no inventory, there is no reaction to trying to interact with it. This happens when the option to limit the shops to season appropriate wares is set to `true`.
 - working on bus stop related shenanigans
+-- The ticket machine for the bus disappears when on the Market map and making edits to the mod's config through GMCM.
+- Using context tags and "do not repeat" settings to get Cornucopia seeds in the shop is causing warnings about null items in the shop. Investigating whether this is an ignorable issue (and how to get rid of the underlying situ causing the warnings, regardless).
 
 # Think you can do this better?
 
@@ -45,3 +48,4 @@ So, if you think you can do it better, go ahead! Please! In fact, send me a link
 
 
 All the image assets I've used are from the base game, and all the seeds are from ConcernedApe or the mod authors of the mods I eventually make this play nice with. 
+
