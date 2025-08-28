@@ -4,7 +4,7 @@ This is a Content Patcher pack that adds a new location map where you can buy se
 
 # What it is
 
-Presently working, there are shops for Flowers, Seasonal Crops (one shop for each season), Special Crops (like mixed seeds and pine cones), and Tools (so you can get iridium sprinklers and deluxe fertilizers right from the start).
+Presently working, there are shops for Flowers, Seasonal Crops (one shop for each season), Special Crops (like mixed seeds and pine cones), and Tools (so you can get iridium sprinklers and deluxe fertilizers right from the start). A Dairy shop has just been added, intended for cooks to get their hands on normal quality milk, eggs, and cheese without having to keep animals.
 
 # What it is NOT
 
@@ -22,30 +22,34 @@ I have no idea if my price setting for these seeds will override any rebalancing
 # Dependencies
 
 - Content Patcher - this is a content pack for that framework
-- Central Station - so you can get to the Market
+- Central Station - so you can get to the Market without having to walk there
 - SMAPI - so your mods work, at all
 
 # Planned Development
 
-- TODO: finish adding the bus stop warp location
 - Farm Type Manager content pack for the map
 - adding a seasonal goods vendor, and maybe another for animal produce so cooks can get cooking right from the get go
 
 # Known Oddities and Issues
 
 - When a shop has no inventory, there is no reaction to trying to interact with it. This happens when the option to limit the shops to season appropriate wares is set to `true`.
-- working on bus stop related shenanigans
--- The ticket machine for the bus disappears when on the Market map and making edits to the mod's config through GMCM.
 - Using context tags and "do not repeat" settings to get Cornucopia seeds in the shop is causing warnings about null items in the shop. Investigating whether this is an ignorable issue (and how to get rid of the underlying situ causing the warnings, regardless).
 
 # Think you can do this better?
 
-This map is heavily inspired by a map that has since been taken down from Nexus, which was titled Farmer's Market, created by NotAGardener. Their idea worked for me, and when they took it down, I thought, hey, a chance to figure out making my own maps! 
+This map is heavily inspired by a map that has since been taken down from Nexus, which was titled Farmer's Market, created by NotAGardener. Their idea for a seed market map worked for me, and when they took it down, I thought, hey, a chance to figure out making my own maps! 
 
 Many head thunks later, using just the base game assets and learning from the examples I could scavenge around the net, I put together this small little outdoor map with seed vendors and some trees. 
 
 So, if you think you can do it better, go ahead! Please! In fact, send me a link should you post your take! 
 
+All the image assets I've used are from the base game, and I'm just following the formula for a content pack laid out by the authors of C. 
 
-All the image assets I've used are from the base game, and all the seeds are from ConcernedApe or the mod authors of the mods I eventually make this play nice with. 
+# Changelog
+## 0.1.5-beta
+- Begining changelog on ReadMe.md
+- added in dairy vendor
+- added in a ticket machine on the map instead of relying on Central Station to keep one there
+-- Testing if this resolves ticket machine vanishing when on the map and editing config
+
 
