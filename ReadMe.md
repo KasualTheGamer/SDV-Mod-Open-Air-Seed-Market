@@ -51,6 +51,7 @@ All the image assets I've used are from the base game, and I'm just following th
 - added in dairy vendor
 - added in a ticket machine on the map instead of relying on Central Station to keep one there
 -- Testing if this resolves ticket machine vanishing when on the map and editing config
-- adding in a Farm Type Manager[https://github.com/Esca-MMC/FarmTypeManager] content pack to add foragables to the map (because I still can't figure out how to do that with content patcher >.<)
+- adding in a [Farm Type Manager](https://github.com/Esca-MMC/FarmTypeManager) content pack to add foragables to the map (because I still can't figure out how to do that with content patcher >.<)
+
 
 
