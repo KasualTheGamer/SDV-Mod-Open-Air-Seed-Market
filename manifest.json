@@ -16,11 +16,8 @@
     ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    },
-      "ContentPackFor": {
-        "UniqueID": "Esca.FarmTypeManager",
-        "MinimumVersion": "1.23.0"
     }
 }
+
 
 
