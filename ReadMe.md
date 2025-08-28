@@ -46,7 +46,10 @@ So, if you think you can do it better, go ahead! Please! In fact, send me a link
 All the image assets I've used are from the base game, and I'm just following the formula for a content pack laid out by the authors of C. 
 
 # Changelog
-## 0.1.6-beta (in progress)
+## 0.1.7-beta (in progress)
+- removed warp properties from the map to better support having warps handled via Content Patcher
+- updated tile layers on the bus due to visual oddities
+## 0.1.6-beta 
 - removed files no longer being used
 -- the tilesheet Craftables.png was swapped out for springobjects.png
 - cleaned up some tiles on the map that were "alwaysFront" which really shouldn't have been
@@ -58,6 +61,7 @@ All the image assets I've used are from the base game, and I'm just following th
 - added in a ticket machine on the map instead of relying on Central Station to keep one there
 -- Testing if this resolves ticket machine vanishing when on the map and editing config
 - adding in a [Farm Type Manager](https://github.com/Esca-MMC/FarmTypeManager) content pack to add foragables to the map (because I still can't figure out how to do that with content patcher >.<)
+
 
 
 
