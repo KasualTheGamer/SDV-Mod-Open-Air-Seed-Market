@@ -1,0 +1,15 @@
+{
+  "Name": "[FTM] KTG Seed Market",
+  "Author": "KasualTheGamer",
+  "Version": "0.1.5-beta",
+  "Description": "Adds forage data to custom map KTG's Open Air Seed Market.",
+  "UniqueID": "KTG.SeedShopsForage",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ 
+    "GitHub:KasualTheGamer/SDV-Mod-Open-Air-Seed-Market" 
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.23.0"
+  }
+}
