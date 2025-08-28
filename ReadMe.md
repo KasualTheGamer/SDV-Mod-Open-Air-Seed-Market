@@ -22,7 +22,8 @@ I have no idea if my price setting for these seeds will override any rebalancing
 # Dependencies
 
 - Content Patcher - this is a content pack for that framework
-- Central Station - so you can get to the Market without having to walk there
+- Central Station (optional) - so you can get to the Market without having to walk there
+- Farm Type Manager (optional) - for forage
 - SMAPI - so your mods work, at all
 
 # Planned Development
@@ -34,6 +35,7 @@ I have no idea if my price setting for these seeds will override any rebalancing
 
 - When a shop has no inventory, there is no reaction to trying to interact with it. This happens when the option to limit the shops to season appropriate wares is set to `true`.
 - Using context tags and "do not repeat" settings to get Cornucopia seeds in the shop is causing warnings about null items in the shop. Investigating whether this is an ignorable issue (and how to get rid of the underlying situ causing the warnings, regardless).
+- toggling the ability to walk from the bus stop to the market while the game is loaded has no effect. 
 
 # Think you can do this better?
 
@@ -46,12 +48,18 @@ So, if you think you can do it better, go ahead! Please! In fact, send me a link
 All the image assets I've used are from the base game, and I'm just following the formula for a content pack laid out by the authors of C. 
 
 # Changelog
+## 0.1.6-beta (in progress)
+- removed files no longer being used
+-- the tilesheet Craftables.png was swapped out for springobjects.png
+- cleaned up some tiles on the map that were "alwaysFront" which really shouldn't have been
+- cleaned up folder structure
 ## 0.1.5-beta
 - Begining changelog on ReadMe.md
 - added in dairy vendor
 - added in a ticket machine on the map instead of relying on Central Station to keep one there
 -- Testing if this resolves ticket machine vanishing when on the map and editing config
 - adding in a [Farm Type Manager](https://github.com/Esca-MMC/FarmTypeManager) content pack to add foragables to the map (because I still can't figure out how to do that with content patcher >.<)
+
 
 
 
