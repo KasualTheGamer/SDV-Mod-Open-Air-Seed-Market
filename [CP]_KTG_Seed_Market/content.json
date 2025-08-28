@@ -60,16 +60,24 @@
       "Target": "Maps/BusStop",
       "AddWarps": [
         "43 6 {{ModId}}_SeedShops 3 3",
-        "43 7 {{ModId}}_SeedShops 3 4"
-      ]
+        "43 7 {{ModId}}_SeedShops 3 4",
+        "43 8 {{ModId}}_SeedShops 3 5"
+      ],
+      "When": {
+        "WalkToShops": true
+      }
     },
     {
       "Action": "EditMap",
       "Target": "Maps/KTG.SeedShopsMap",
       "AddWarps": [
         "2 3 BusStop 42 6",
-        "2 4 BusStop 42 7"
-      ]
+        "2 4 BusStop 42 7",
+        "2 5 BusStop 42 8"
+      ],
+      "When": {
+        "WalkToShops": true
+      }
     },
     {
       "Action": "EditData",
@@ -103,3 +111,4 @@
   ],
   "ModNotes": "Beautifying and basic JSON format validation through https://jsonformatter.org/"
 }
+
