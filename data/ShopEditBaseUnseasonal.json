@@ -63,13 +63,7 @@
               "ItemID": "(O)251"
             }
           ]
-        }
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Shops",
-      "Entries": {
+        },
         "{{ModId}}_ToolShop": {
           "Owners": [
             {
@@ -137,6 +131,48 @@
             {
               "Id": "{{ModId}}_Speed-Gro_2",
               "ItemID": "(O)466"
+            }
+          ]
+        },
+        "{{ModId}}_DairyShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Dialogue": "{{i18n:ShopDialog_Open}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "{{ModId}}_Egg_1",
+              "ItemID": "(O)176"
+            },
+            {
+              "Id": "{{ModId}}_Egg_2",
+              "ItemID": "(O)180"
+            },
+            {
+              "Id": "{{ModId}}_Egg_Ostrich",
+              "ItemID": "(O)289"
+            },
+            {
+              "Id": "{{ModId}}_Egg_Void",
+              "ItemID": "(O)305"
+            },
+            {
+              "Id": "{{ModId}}_Milk_Cow",
+              "ItemID": "(O)184"
+            },
+            {
+              "Id": "{{ModId}}_Milk_Goat",
+              "ItemID": "(O)436"
+            },
+            {
+              "Id": "{{ModId}}_Cheese",
+              "ItemID": "(O)424"
+            },
+            {
+              "Id": "{{ModId}}_Cheese_Goat",
+              "ItemID": "(O)426"
             }
           ]
         }
