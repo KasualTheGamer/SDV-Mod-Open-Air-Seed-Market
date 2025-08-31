@@ -14,7 +14,10 @@
     "MapName": " KTG.SeedShops_SeedShops",
     "MinimumSpawnsPerDay": 1,
     "MaximumSpawnsPerDay": 3,
-    "IncludeTerrainTypes": [],
+    "IncludeTerrainTypes": [
+     "Dirt",
+     "Grass"
+    ],
     "ExcludeTerrainTypes": [],
     "IncludeCoordinates": [],
     "ExcludeCoordinates": [],
