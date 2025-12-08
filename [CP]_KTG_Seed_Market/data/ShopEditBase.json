@@ -3,9 +3,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": false
-      },
       "Entries": {
         "{{ModId}}_SpringShop": {
           "Owners": [
@@ -75,9 +72,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": false
-      },
       "Entries": {
         "{{ModId}}_SummerShop": {
           "Owners": [
@@ -170,9 +164,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": false
-      },
       "Entries": {
         "{{ModId}}_FallShop": {
           "Owners": [
@@ -245,9 +236,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": false
-      },
       "Entries": {
         "{{ModId}}_WinterShop": {
           "Owners": [
@@ -272,9 +260,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": false
-      },
       "Entries": {
         "{{ModId}}_FlowerShop": {
           "Owners": [

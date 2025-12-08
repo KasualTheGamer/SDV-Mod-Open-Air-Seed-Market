@@ -1,0 +1,97 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_SpringShop",
+        "Items"
+      ],
+      "When": {
+        "Season": "spring"
+      },
+      "Entries": {
+        "ASLane.DFT_CherrySapling": {
+          "Id": "ASLane.DFT_CherrySapling",
+          "ItemId": "ASLane.DFT_CherrySapling",
+          "Price": "200",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_ApricotSapling": {
+          "Id": "ASLane.DFT_ApricotSapling",
+          "ItemId": "ASLane.DFT_ApricotSapling",
+          "Price": "125",
+          "IgnoreShopPriceModifiers": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_SummerShop",
+        "Items"
+      ],
+      "When": {
+        "Season": "summer"
+      },
+      "Entries": {
+        "ASLane.DFT_OrangeSapling": {
+          "Id": "ASLane.DFT_OrangeSapling",
+          "ItemId": "ASLane.DFT_OrangeSapling",
+          "Price": "250",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_PeachSapling": {
+          "Id": "ASLane.DFT_PeachSapling",
+          "ItemId": "ASLane.DFT_PeachSapling",
+          "Price": "350",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_PalmSapling": {
+          "Id": "ASLane.DFT_PalmSapling",
+          "ItemId": "ASLane.DFT_PalmSapling",
+          "Price": "250",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_BananaSapling": {
+          "Id": "ASLane.DFT_BananaSapling",
+          "ItemId": "ASLane.DFT_BananaSapling",
+          "Price": "500",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_MangoSapling": {
+          "Id": "ASLane.DFT_MangoSapling",
+          "ItemId": "ASLane.DFT_MangoSapling",
+          "Price": "500",
+          "IgnoreShopPriceModifiers": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FallShop",
+        "Items"
+      ],
+      "When": {
+        "Season": "fall"
+      },
+      "Entries": {
+        "ASLane.DFT_PomegranateSapling": {
+          "Id": "ASLane.DFT_PomegranateSapling",
+          "ItemId": "ASLane.DFT_PomegranateSapling",
+          "Price": "350",
+          "IgnoreShopPriceModifiers": true
+        },
+        "ASLane.DFT_AppleSapling": {
+          "Id": "ASLane.DFT_AppleSapling",
+          "ItemId": "ASLane.DFT_AppleSapling",
+          "Price": "250",
+          "IgnoreShopPriceModifiers": true
+        }
+      }
+    }
+  ]
+}

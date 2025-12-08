@@ -4,7 +4,6 @@
       "Action": "EditData",
       "Target": "Data/Shops",
       "When": {
-        "LimitSeedsBySeason": true,
         "Season": "spring"
       },
       "Entries": {
@@ -87,7 +86,6 @@
       "Action": "EditData",
       "Target": "Data/Shops",
       "When": {
-        "LimitSeedsBySeason": true,
         "Season": "summer"
       },
       "Entries": {
@@ -193,7 +191,6 @@
       "Action": "EditData",
       "Target": "Data/Shops",
       "When": {
-        "LimitSeedsBySeason": true,
         "Season": "fall"
       },
       "Entries": {
@@ -279,7 +276,6 @@
       "Action": "EditData",
       "Target": "Data/Shops",
       "When": {
-        "LimitSeedsBySeason": true,
         "Season": "winter"
       },
       "Entries": {
@@ -316,9 +312,6 @@
     {
       "Action": "EditData",
       "Target": "Data/Shops",
-      "When": {
-        "LimitSeedsBySeason": true
-      },
       "Entries": {
         "{{ModId}}_FlowerShop": {
           "Owners": [

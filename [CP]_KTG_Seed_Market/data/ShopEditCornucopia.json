@@ -16,7 +16,7 @@
               "Cornucopia_BushSeeds": {
                 "Id": "{{ModId}}_Cornucopia_BushSeeds",
                 "ItemId": "ALL_ITEMS (O)",
-                "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_bush_seed",
+                "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
                 "AvoidRepeat": true
               }
             },
@@ -24,7 +24,7 @@
               "Cornucopia_FruitTreeSaplings": {
                 "Id": "{{ModId}}_Cornucopia_FruitTreeSaplings",
                 "ItemId": "ALL_ITEMS (O)",
-                "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling",
+                "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
                 "AvoidRepeat": true
               }
             }
@@ -43,10 +43,10 @@
         "LimitSeedsBySeason": false
       },
       "Entries": {
-        "Cornucopia_SeedsAllSeasons": {
+        "{{ModId}}_Cornucopia_SeedsAllSeasons": {
           "Id": "{{ModId}}_Cornucopia_SeedsAllSeasons",
           "ItemId": "ALL_ITEMS (O)",
-          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
           "AvoidRepeat": true
         }
       }
@@ -62,11 +62,12 @@
         "LimitSeedsBySeason": true
       },
       "Entries": {
-        "Cornucopia_SeedsSpring": {
-          "Id": "{{ModId}}_Cornucopia_SeedsSpring",
+        "{{ModId}}_Cornucopia_CropSeedsSpring": {
+          "Id": "{{ModId}}_Cornucopia_CropSeedsSpring",
           "ItemId": "ALL_ITEMS (O)",
           "Condition": "SEASON spring",
-          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+          "IgnoreShopPriceModifiers": true,
           "AvoidRepeat": true
         }
       }
@@ -82,11 +83,12 @@
         "LimitSeedsBySeason": true
       },
       "Entries": {
-        "Cornucopia_SeedsSpring": {
-          "Id": "{{ModId}}_Cornucopia_SeedsSpring",
+        "{{ModId}}_Cornucopia_CropSeedsSummer": {
+          "Id": "{{ModId}}_Cornucopia_CropSeedsSummer",
           "ItemId": "ALL_ITEMS (O)",
           "Condition": "SEASON summer",
-          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+          "IgnoreShopPriceModifiers": true,
           "AvoidRepeat": true
         }
       }
@@ -102,11 +104,12 @@
         "LimitSeedsBySeason": true
       },
       "Entries": {
-        "Cornucopia_SeedsSpring": {
-          "Id": "{{ModId}}_Cornucopia_SeedsSpring",
+        "{{ModId}}_Cornucopia_CropSeedsFall": {
+          "Id": "{{ModId}}_Cornucopia_CropSeedsFall",
           "ItemId": "ALL_ITEMS (O)",
           "Condition": "SEASON fall",
-          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+          "IgnoreShopPriceModifiers": true,
           "AvoidRepeat": true
         }
       }
@@ -122,14 +125,16 @@
         "LimitSeedsBySeason": true
       },
       "Entries": {
-        "Cornucopia_SeedsSpring": {
-          "Id": "{{ModId}}_Cornucopia_SeedsSpring",
+        "{{ModId}}_Cornucopia_CropSeedsWinter": {
+          "Id": "{{ModId}}_Cornucopia_CropSeedsWinter",
           "ItemId": "ALL_ITEMS (O)",
           "Condition": "SEASON winter",
-          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+          "IgnoreShopPriceModifiers": true,
           "AvoidRepeat": true
         }
       }
     }
-  ]
+  ],
+  "ModNotes": "Beautifying and basic JSON format validation through https://jsonformatter.org/"
 }

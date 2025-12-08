@@ -85,6 +85,13 @@
               "ItemID": "(O)645"
             },
             {
+              "Id": "{{ModId}}_Sprinkler_4",
+              "ItemID": "(O)PrismaticSprinkler",
+              "When": {
+                "HasMod |contains=iargue.PrismaticToolsContinued": true
+              }
+            },
+            {
               "Id": "{{ModId}}_Fertilizer_1",
               "ItemID": "(O)368"
             },
@@ -125,6 +132,20 @@
               "ItemID": "(O)915"
             },
             {
+              "Id": "{{ModId}}_SeedSpreader",
+              "ItemID": "(O)mushymato.SprinklerAttachments.CP_SeedSpreader",
+              "When": {
+                "HasMod |contains=mushymato.SprinklerAttachments": true
+              }
+            },
+            {
+              "Id": "{{ModId}}_3in1Nozzle",
+              "ItemID": "(O)mushymato.SprinklerAttachments.CP_3in1Nozzle",
+              "When": {
+                "HasMod |contains=mushymato.SprinklerAttachments": true
+              }
+            },
+            {
               "Id": "{{ModId}}_Speed-Gro_1",
               "ItemID": "(O)465"
             },
@@ -149,6 +170,10 @@
             {
               "Id": "{{ModId}}_Egg_2",
               "ItemID": "(O)180"
+            },
+            {
+              "Id": "{{ModId}}_Duck_Egg",
+              "ItemID": "(O)442"
             },
             {
               "Id": "{{ModId}}_Egg_Ostrich",

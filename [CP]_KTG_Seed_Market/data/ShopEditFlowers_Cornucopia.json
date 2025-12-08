@@ -1,0 +1,112 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FlowerShop",
+        "Items"
+      ],
+      "When": {
+        "LimitSeedsBySeason": false
+      },
+      "Entries": {
+        "{{ModId}}_Cornucopia_MoreFlowers_AllSeasons": {
+          "Id": "{{ModId}}_Cornucopia_MoreFlowers_AllSeasons",
+          "ItemId": "ALL_ITEMS (O)",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "IgnoreShopPriceModifiers": true,
+          "AvoidRepeat": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FlowerShop",
+        "Items"
+      ],
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "spring"
+      },
+      "Entries": {
+        "{{ModId}}_Cornucopia_MoreFlowers_Spring": {
+          "Id": "{{ModId}}_Cornucopia_MoreFlowers_Spring",
+          "ItemId": "ALL_ITEMS (O)",
+          "Condition": "SEASON spring",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "IgnoreShopPriceModifiers": true,
+          "AvoidRepeat": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FlowerShop",
+        "Items"
+      ],
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "summer"
+      },
+      "Entries": {
+        "{{ModId}}_Cornucopia_MoreFlowers_Summer": {
+          "Id": "{{ModId}}_Cornucopia_MoreFlowers_Summer",
+          "ItemId": "ALL_ITEMS (O)",
+          "Condition": "SEASON summer",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "IgnoreShopPriceModifiers": true,
+          "AvoidRepeat": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FlowerShop",
+        "Items"
+      ],
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "fall"
+      },
+      "Entries": {
+        "{{ModId}}_Cornucopia_MoreFlowers_Fall": {
+          "Id": "{{ModId}}_Cornucopia_MoreFlowers_Fall",
+          "ItemId": "ALL_ITEMS (O)",
+          "Condition": "SEASON fall",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "IgnoreShopPriceModifiers": true,
+          "AvoidRepeat": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "{{ModId}}_FlowerShop",
+        "Items"
+      ],
+      "When": {
+        "LimitSeedsBySeason": true,
+        "Season": "winter"
+      },
+      "Entries": {
+        "{{ModId}}_Cornucopia_MoreFlowers_Winter": {
+          "Id": "{{ModId}}_Cornucopia_MoreFlowers_Winter",
+          "ItemId": "ALL_ITEMS (O)",
+          "Condition": "SEASON winter",
+          "PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, ITEM_CONTEXT_TAG Target cornucopia_crop_seed",
+          "IgnoreShopPriceModifiers": true,
+          "AvoidRepeat": true
+        }
+      }
+    }
+  ]
+}

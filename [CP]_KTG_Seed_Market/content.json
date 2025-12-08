@@ -53,7 +53,32 @@
     },
     {
       "Action": "Include",
+      "When": {
+        "HasMod |contains=ASLane.DFT": true,
+        "LimitSeedsBySeason": true
+      },
+      "FromFile": "data/ShopEditDwarfTreesSeasonal.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "HasMod |contains=ASLane.DFT": true
+      },
+      "FromFile": "data/ShopEditDwarfTrees.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "HasMod |contains=Cornucopia.MoreCrops": true
+      },
       "FromFile": "data/ShopEditCornucopia.json"
+    },
+    {
+      "Action": "Include",
+      "When": {
+        "HasMod |contains=Cornucopia.MoreFlowers": true
+      },
+      "FromFile": "data/ShopEditFlowers_Cornucopia.json"
     },
     {
       "Action": "EditMap",
@@ -109,6 +134,7 @@
       }
     }
   ],
-  "ModNotes": "Beautifying and basic JSON format validation through https://jsonformatter.org/"
+  "ModNotes": [
+    "Beautifying and basic JSON format validation through https://jsonformatter.org/"
+  ]
 }
-
