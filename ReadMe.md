@@ -46,7 +46,10 @@ So, if you think you can do it better, go ahead! Please! In fact, send me a link
 All the image assets I've used are from the base game, and I'm just following the formula for a content pack laid out by the authors of C. 
 
 # Changelog
-## 0.1.7-beta (in progress)
+## 0.1.8-beta
+- updated tilesheet properties to mark tiles as dirt and diggable
+- updated FTM pack to spawn on dirt and grass tiles
+## 0.1.7-beta
 - removed warp properties from the map to better support having warps handled via Content Patcher
 - updated tile layers on the bus due to visual oddities
 ## 0.1.6-beta 
